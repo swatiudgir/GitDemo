@@ -33,8 +33,10 @@ public class LoginTest extends BaseClass{
 	{
 		String title=lgnpge.validateloginpage();
 		Assert.assertEquals(title,"Free CRM software in the cloud powers sales and customer service");
+
                  System.out.pintln("Title Verified");
                 Systen.out.println("Login page title");
+
 
 	}
 	
