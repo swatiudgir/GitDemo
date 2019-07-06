@@ -1,0 +1,8 @@
+com\ex\pages\SignUp.class
+com\ex\base\BaseClass.class
+com\ex\pages\LoginPage.class
+com\ex\util\TestUtil.class
+com\ex\pages\DealsPage.class
+com\ex\pages\HomePage.class
+com\ex\ExtentReport\ExtentReporterNG.class
+com\ex\pages\ContactsPage.class

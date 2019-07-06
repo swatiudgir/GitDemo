@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="3" name="TestSuite" time="208.588" errors="0" skipped="12">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Swati1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="702fa739c0e37462"/>
+    <property name="POM_ARTIFACTID" value="BankProject"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="BankProject"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="ANT_HOME" value="C:\Program Files\apache-ant-1.10.5"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="SRAVAN$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Swati1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Swati1/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="SRAVAN$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="Classpath" value=""/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Swati1/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Swati1/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="SRAVAN"/>
+    <property name="POM_GROUPID" value="com.medplus"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Swati1-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="702fa739c0e37462"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven/bin;C:\Program Files\Java\jdk1.8.0_201/bin;C:\Program Files\Java\jdk1.8.0_201/bin;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\apache-ant-1.10.5\bin&quot;;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\apache-ant-1.10.5\bin;C:\Program Files\Java\jdk1.8.0_201\bin&quot;;&quot;C:\ProgramData\Oracle\Java\javapath;E:\Swati\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;E:\Compressed\apache-ant-1.10.1\bin;&quot;;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;E:\Swati\apache-maven-3.5.3-bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\;C:\Users\iuser\AppData\Local\Android\Sdk\tools\bin;C:\Users\iuser\AppData\Local\Android\Sdk\tools;C:\Users\iuser\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 51595"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_201/bin;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\apache-ant-1.10.5\bin&quot;;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\apache-ant-1.10.5\bin;C:\Program Files\Java\jdk1.8.0_201\bin&quot;;&quot;C:\ProgramData\Oracle\Java\javapath;E:\Swati\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;E:\Compressed\apache-ant-1.10.1\bin;&quot;;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;E:\Swati\apache-maven-3.5.3-bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\nodejs\;C:\Users\iuser\AppData\Local\Android\Sdk\tools\bin;C:\Users\iuser\AppData\Local\Android\Sdk\tools;C:\Users\iuser\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_201/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\iuser\eclipse-workspace\BankProject"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\ztestmaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\iuser\AppData\Local\Android\Sdk"/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\Swati1"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;E:\Compressed\AutoIt3\AutoItX"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+  </properties>
+  <testcase classname="com.ex.tests.ContactsTest" name="setup" time="105.729">
+    <failure message="Element &lt;a class=&quot;navbar-brand&quot; href=&quot;https://www.freecrm.com/index.html&quot;&gt; is not clickable at point (119,39.5) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8968, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b68b2741-da04-477c-968f-8748186fb9df" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;navbar-brand&quot; href=&quot;https://www.freecrm.com/index.html&quot;&gt; is not clickable at point (119,39.5) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8968, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b68b2741-da04-477c-968f-8748186fb9df
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.ex.pages.HomePage.ContactsLink(HomePage.java:37)
+	at com.ex.tests.ContactsTest.setup(ContactsTest.java:37)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4361bd48
+</system-out>
+    <system-err>1549099004502	geckodriver	INFO	geckodriver 0.21.0
+1549099004669	geckodriver	INFO	Listening on 127.0.0.1:4946
+1549099006460	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.DrqTdOXLIwYT&quot;
+1549099020301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: resource://pdf.js/
+1549099020368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: about:reader*
+1549099021260	Marionette	DEBUG	Received observer notification profile-after-change
+1549099025482	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1549099026098	Marionette	DEBUG	Received observer notification command-line-startup
+1549099026099	Marionette	DEBUG	Received observer notification nsPref:changed
+1549099026099	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549099028440	Marionette	DEBUG	Received observer notification toplevel-window-ready
+[Parent 8968, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8968, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1549099053591	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1549099053591	Marionette	DEBUG	Waiting for delayed startup...
+1549099057600	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1549099057602	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1549099057691	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549099057692	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549099057692	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549099057693	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549099057694	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549099057697	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549099057698	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549099057700	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549099057701	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549099057713	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549099057715	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549099057718	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549099057720	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549099057723	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549099057724	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549099057725	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549099057726	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549099057726	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549099057726	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549099057727	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549099057727	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549099057727	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549099057727	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549099057728	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549099057729	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549099057729	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549099058605	Marionette	INFO	Listening on port 51628
+1549099058605	Marionette	DEBUG	Remote service is active
+1549099060183	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51705
+1549099061259	Marionette	TRACE	0 -&gt; [0,1,&quot;WebDriver:NewSession&quot;,{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}]
+1549099061261	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549099061454	Marionette	DEBUG	[6442450945] Frame script loaded
+1549099062083	Marionette	DEBUG	[6442450945] Frame script registered
+1549099062749	Marionette	TRACE	0 &lt;- [1,1,null,{&quot;sessionId&quot;:&quot;b68b2741-da04-477c-968f-8748186fb9df&quot;,&quot;capabilities&quot;:{&quot;browserName&quot;:&quot;firefox&quot;,&quot;browserVersion&quot;:&quot;64.0. ... alse,&quot;moz:webdriverClick&quot;:true,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}}]
+Feb 02, 2019 2:47:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1549099067096	Marionette	TRACE	0 -&gt; [0,2,&quot;WebDriver:MaximizeWindow&quot;,{}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1549099070690	Marionette	TRACE	0 &lt;- [1,2,null,{&quot;x&quot;:-4,&quot;y&quot;:-4,&quot;width&quot;:1032,&quot;height&quot;:776,&quot;state&quot;:&quot;maximized&quot;}]
+1549099070804	Marionette	TRACE	0 -&gt; [0,3,&quot;WebDriver:DeleteAllCookies&quot;,{}]
+1549099070806	Marionette	TRACE	0 &lt;- [1,3,null,{&quot;value&quot;:null}]
+1549099070884	Marionette	TRACE	0 -&gt; [0,4,&quot;WebDriver:SetTimeouts&quot;,{&quot;implicit&quot;:30000}]
+1549099070886	Marionette	TRACE	0 &lt;- [1,4,null,{&quot;value&quot;:null}]
+1549099070897	Marionette	TRACE	0 -&gt; [0,5,&quot;WebDriver:SetTimeouts&quot;,{&quot;pageLoad&quot;:30000}]
+1549099070899	Marionette	TRACE	0 &lt;- [1,5,null,{&quot;value&quot;:null}]
+1549099070913	Marionette	TRACE	0 -&gt; [0,6,&quot;WebDriver:Navigate&quot;,{&quot;url&quot;:&quot;https://www.freecrm.com/index.html&quot;}]
+1549099070971	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1549099072373	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1549099092171	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.html
+1549099093999	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.freecrm.com/index.html
+1549099094002	Marionette	TRACE	0 &lt;- [1,6,null,{&quot;value&quot;:null}]
+1549099094315	Marionette	TRACE	0 -&gt; [0,7,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;*[name=&apos;username&apos;]&quot;}]
+1549099094323	Marionette	TRACE	0 &lt;- [1,7,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;1d67eaf2-8ec6-4fd0-95fc-08b5adac1507&quot;}}]
+1549099094413	Marionette	TRACE	0 -&gt; [0,8,&quot;WebDriver:ElementSendKeys&quot;,{&quot;id&quot;:&quot;1d67eaf2-8ec6-4fd0-95fc-08b5adac1507&quot;,&quot;text&quot;:&quot;naveenk&quot;,&quot;value&quot;:[&quot;n&quot;,&quot;a&quot;,&quot;v&quot;,&quot;e&quot;,&quot;e&quot;,&quot;n&quot;,&quot;k&quot;]}]
+1549099095074	Marionette	TRACE	0 &lt;- [1,8,null,{&quot;value&quot;:null}]
+1549099095086	Marionette	TRACE	0 -&gt; [0,9,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;*[name=&apos;password&apos;]&quot;}]
+1549099095263	Marionette	TRACE	0 &lt;- [1,9,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;73994306-bc85-4896-9216-f03aab58b9ff&quot;}}]
+1549099095281	Marionette	TRACE	0 -&gt; [0,10,&quot;WebDriver:ElementSendKeys&quot;,{&quot;id&quot;:&quot;73994306-bc85-4896-9216-f03aab58b9ff&quot;,&quot;text&quot;:&quot;test@123&quot;,&quot;value&quot;:[&quot;t&quot;,&quot;e&quot;,&quot;s&quot;,&quot;t&quot;,&quot;@&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;]}]
+1549099095402	Marionette	TRACE	0 &lt;- [1,10,null,{&quot;value&quot;:null}]
+1549099095410	Marionette	TRACE	0 -&gt; [0,11,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//input[@type=&apos;submit&apos;]&quot;}]
+1549099096659	Marionette	TRACE	0 &lt;- [1,11,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;ff30b892-d0b9-475d-8efc-1300406608ca&quot;}}]
+1549099096690	Marionette	TRACE	0 -&gt; [0,12,&quot;WebDriver:ElementClick&quot;,{&quot;id&quot;:&quot;ff30b892-d0b9-475d-8efc-1300406608ca&quot;}]
+1549099097709	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.freecrm.com/index.html
+1549099098614	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.freecrm.com/index.html
+1549099098644	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.freecrm.com/index.html
+1549099099206	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1549099099420	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.html?e=1
+1549099099597	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.freecrm.com/index.html?e=1
+1549099099598	Marionette	TRACE	0 &lt;- [1,12,null,{&quot;value&quot;:null}]
+1549099099612	Marionette	TRACE	0 -&gt; [0,13,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[contains(text(),Contacts)]&quot;}]
+1549099099843	Marionette	TRACE	0 &lt;- [1,13,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;6b196896-af31-4611-a6ca-1f58095efa30&quot;}}]
+1549099099853	Marionette	TRACE	0 -&gt; [0,14,&quot;WebDriver:ElementClick&quot;,{&quot;id&quot;:&quot;6b196896-af31-4611-a6ca-1f58095efa30&quot;}]
+1549099099896	Marionette	TRACE	0 &lt;- [1,14,{&quot;error&quot;:&quot;element click intercepted&quot;,&quot;message&quot;:&quot;Element &lt;a class=\&quot;navbar-brand\&quot; href=\&quot;https://www.freecrm.com/index. ... avigate@chrome://marionette/content/listener.js:409:13\nclickElement@chrome://marionette/content/listener.js:1209:5\n&quot;},null]
+</system-err>
+  </testcase>
+  <testcase classname="com.ex.tests.ContactsTest" name="ValidateCreateContact" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="setup" time="42.236">
+    <failure message="Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (913.2416687011719,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7604, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 900add28-62d7-4ea1-9c13-1e9af59ffae2" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: Element &lt;input class=&quot;btn btn-small&quot; type=&quot;submit&quot;&gt; is not clickable at point (913.2416687011719,117) because another element &lt;div id=&quot;preloader&quot;&gt; obscures it
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7604, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 900add28-62d7-4ea1-9c13-1e9af59ffae2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.ex.pages.LoginPage.login(LoginPage.java:46)
+	at com.ex.tests.HomeTest.setup(HomeTest.java:33)
+</failure>
+    <system-err>1549099100287	geckodriver	INFO	geckodriver 0.21.0
+1549099100301	geckodriver	INFO	Listening on 127.0.0.1:44582
+1549099100650	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.bM74Mzu1fa7h&quot;
+1549099103203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: resource://pdf.js/
+1549099103204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: about:reader*
+1549099103787	Marionette	DEBUG	Received observer notification profile-after-change
+1549099106070	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1549099106484	Marionette	DEBUG	Received observer notification command-line-startup
+1549099106484	Marionette	DEBUG	Received observer notification nsPref:changed
+1549099106485	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549099109991	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1549099113095	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1549099113095	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1549099118671	Marionette	DEBUG	Received observer notification domwindowclosed
+1549099118672	Marionette	DEBUG	Waiting for delayed startup...
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1549099118686	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1549099118687	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1549099118687	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549099118688	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549099118688	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549099118689	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549099118691	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549099118692	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549099118693	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549099118694	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549099118694	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549099118695	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549099118695	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549099118697	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549099118697	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549099118698	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549099118698	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549099118698	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549099118699	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549099118701	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549099118702	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549099118702	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549099118702	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549099118703	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549099118703	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549099118704	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549099118704	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549099118704	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549099118819	Marionette	INFO	Listening on port 51776
+1549099118819	Marionette	DEBUG	Remote service is active
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x300059,name=PContent::Msg_ProvideAnonymousTemporaryFile) Closed channel: cannot send/recv
+
+1549099119305	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51811
+1549099119307	Marionette	TRACE	0 -&gt; [0,1,&quot;WebDriver:NewSession&quot;,{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}]
+1549099119309	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549099122780	Marionette	DEBUG	[6442450945] Frame script loaded
+1549099122784	Marionette	DEBUG	[6442450945] Frame script registered
+1549099122796	Marionette	TRACE	0 &lt;- [1,1,null,{&quot;sessionId&quot;:&quot;900add28-62d7-4ea1-9c13-1e9af59ffae2&quot;,&quot;capabilities&quot;:{&quot;browserName&quot;:&quot;firefox&quot;,&quot;browserVersion&quot;:&quot;64.0. ... alse,&quot;moz:webdriverClick&quot;:true,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}}]
+Feb 02, 2019 2:48:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1549099122820	Marionette	TRACE	0 -&gt; [0,2,&quot;WebDriver:MaximizeWindow&quot;,{}]
+1549099126329	Marionette	TRACE	0 &lt;- [1,2,null,{&quot;x&quot;:-4,&quot;y&quot;:-4,&quot;width&quot;:1032,&quot;height&quot;:776,&quot;state&quot;:&quot;maximized&quot;}]
+1549099126337	Marionette	TRACE	0 -&gt; [0,3,&quot;WebDriver:DeleteAllCookies&quot;,{}]
+1549099126338	Marionette	TRACE	0 &lt;- [1,3,null,{&quot;value&quot;:null}]
+1549099126348	Marionette	TRACE	0 -&gt; [0,4,&quot;WebDriver:SetTimeouts&quot;,{&quot;implicit&quot;:30000}]
+1549099126349	Marionette	TRACE	0 &lt;- [1,4,null,{&quot;value&quot;:null}]
+1549099126356	Marionette	TRACE	0 -&gt; [0,5,&quot;WebDriver:SetTimeouts&quot;,{&quot;pageLoad&quot;:30000}]
+1549099126357	Marionette	TRACE	0 &lt;- [1,5,null,{&quot;value&quot;:null}]
+1549099126367	Marionette	TRACE	0 -&gt; [0,6,&quot;WebDriver:Navigate&quot;,{&quot;url&quot;:&quot;https://www.freecrm.com/index.html&quot;}]
+1549099126381	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1549099130084	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1549099134996	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.html
+1549099142001	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.freecrm.com/index.html
+1549099142003	Marionette	TRACE	0 &lt;- [1,6,null,{&quot;value&quot;:null}]
+1549099142023	Marionette	TRACE	0 -&gt; [0,7,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;*[name=&apos;username&apos;]&quot;}]
+1549099142037	Marionette	TRACE	0 &lt;- [1,7,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;11bd0499-ba65-4bfe-93e6-8a7a58ae29f0&quot;}}]
+1549099142050	Marionette	TRACE	0 -&gt; [0,8,&quot;WebDriver:ElementSendKeys&quot;,{&quot;id&quot;:&quot;11bd0499-ba65-4bfe-93e6-8a7a58ae29f0&quot;,&quot;text&quot;:&quot;naveenk&quot;,&quot;value&quot;:[&quot;n&quot;,&quot;a&quot;,&quot;v&quot;,&quot;e&quot;,&quot;e&quot;,&quot;n&quot;,&quot;k&quot;]}]
+1549099142089	Marionette	TRACE	0 &lt;- [1,8,null,{&quot;value&quot;:null}]
+1549099142250	Marionette	TRACE	0 -&gt; [0,9,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;*[name=&apos;password&apos;]&quot;}]
+1549099142255	Marionette	TRACE	0 &lt;- [1,9,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;95d9ce6a-5863-498c-b4f2-f74f4ccbbffa&quot;}}]
+1549099142265	Marionette	TRACE	0 -&gt; [0,10,&quot;WebDriver:ElementSendKeys&quot;,{&quot;id&quot;:&quot;95d9ce6a-5863-498c-b4f2-f74f4ccbbffa&quot;,&quot;text&quot;:&quot;test@123&quot;,&quot;value&quot;:[&quot;t&quot;,&quot;e&quot;,&quot;s&quot;,&quot;t&quot;,&quot;@&quot;,&quot;1&quot;,&quot;2&quot;,&quot;3&quot;]}]
+1549099142288	Marionette	TRACE	0 &lt;- [1,10,null,{&quot;value&quot;:null}]
+1549099142295	Marionette	TRACE	0 -&gt; [0,11,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//input[@type=&apos;submit&apos;]&quot;}]
+1549099142299	Marionette	TRACE	0 &lt;- [1,11,null,{&quot;value&quot;:{&quot;element-6066-11e4-a52e-4f735466cecf&quot;:&quot;50098517-5608-4c4b-abde-f5e49c70e588&quot;}}]
+1549099142309	Marionette	TRACE	0 -&gt; [0,12,&quot;WebDriver:ElementClick&quot;,{&quot;id&quot;:&quot;50098517-5608-4c4b-abde-f5e49c70e588&quot;}]
+1549099142323	Marionette	TRACE	0 &lt;- [1,12,{&quot;error&quot;:&quot;element click intercepted&quot;,&quot;message&quot;:&quot;Element &lt;input class=\&quot;btn btn-small\&quot; type=\&quot;submit\&quot;&gt; is not clickabl ... avigate@chrome://marionette/content/listener.js:409:13\nclickElement@chrome://marionette/content/listener.js:1209:5\n&quot;},null]
+</system-err>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="homepagetitletest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="teardown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="setup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="VerifyContactsLinktest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.HomeTest" name="teardown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="setup" time="60.622">
+    <failure message="Timeout loading page after 30000ms
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5212, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d332221-05ca-4fd1-b656-3e63be9aec8b" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timeout loading page after 30000ms
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;SRAVAN&apos;, ip: &apos;192.168.169.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5212, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d332221-05ca-4fd1-b656-3e63be9aec8b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.ex.base.BaseClass.initialisation(BaseClass.java:48)
+	at com.ex.tests.LoginTest.setup(LoginTest.java:26)
+</failure>
+    <system-err>1549099143297	geckodriver	INFO	geckodriver 0.21.0
+1549099143313	geckodriver	INFO	Listening on 127.0.0.1:11323
+1549099143715	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.djGKrBUgPXHA&quot;
+1549099147526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: resource://pdf.js/
+1549099147526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: about:reader*
+1549099147759	Marionette	DEBUG	Received observer notification profile-after-change
+1549099148489	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1549099148535	Marionette	DEBUG	Received observer notification command-line-startup
+1549099148536	Marionette	DEBUG	Received observer notification nsPref:changed
+1549099148536	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1549099150078	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1549099154330	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1549099154331	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1549099161287	Marionette	DEBUG	Received observer notification domwindowclosed
+1549099161288	Marionette	DEBUG	Waiting for delayed startup...
+[Parent 5212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/sr1549099161314	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1549099161314	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1549099161315	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1549099161316	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1549099161316	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1549099161316	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1549099161318	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1549099161319	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1549099161319	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1549099161320	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1549099161320	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1549099161321	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1549099161321	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1549099161323	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1549099161323	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1549099161323	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1549099161323	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1549099161323	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1549099161324	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1549099161326	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1549099161326	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1549099161327	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1549099161327	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1549099161327	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1549099161327	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1549099161328	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1549099161328	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1549099161328	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1549099161446	Marionette	INFO	Listening on port 51886
+1549099161447	Marionette	DEBUG	Remote service is active
+1549099161871	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51922
+1549099161875	Marionette	TRACE	0 -&gt; [0,1,&quot;WebDriver:NewSession&quot;,{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}]
+1549099161876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1549099161950	Marionette	DEBUG	[6442450945] Frame script loaded
+1549099161953	Marionette	DEBUG	[6442450945] Frame script registered
+1549099161962	Marionette	TRACE	0 &lt;- [1,1,null,{&quot;sessionId&quot;:&quot;4d332221-05ca-4fd1-b656-3e63be9aec8b&quot;,&quot;capabilities&quot;:{&quot;browserName&quot;:&quot;firefox&quot;,&quot;browserVersion&quot;:&quot;64.0. ... alse,&quot;moz:webdriverClick&quot;:true,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}}]
+Feb 02, 2019 2:49:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1549099161978	Marionette	TRACE	0 -&gt; [0,2,&quot;WebDriver:MaximizeWindow&quot;,{}]
+1549099165489	Marionette	TRACE	0 &lt;- [1,2,null,{&quot;x&quot;:-4,&quot;y&quot;:-4,&quot;width&quot;:1032,&quot;height&quot;:776,&quot;state&quot;:&quot;maximized&quot;}]
+1549099165496	Marionette	TRACE	0 -&gt; [0,3,&quot;WebDriver:DeleteAllCookies&quot;,{}]
+1549099165497	Marionette	TRACE	0 &lt;- [1,3,null,{&quot;value&quot;:null}]
+1549099165504	Marionette	TRACE	0 -&gt; [0,4,&quot;WebDriver:SetTimeouts&quot;,{&quot;implicit&quot;:30000}]
+1549099165506	Marionette	TRACE	0 &lt;- [1,4,null,{&quot;value&quot;:null}]
+1549099165514	Marionette	TRACE	0 -&gt; [0,5,&quot;WebDriver:SetTimeouts&quot;,{&quot;pageLoad&quot;:30000}]
+1549099165515	Marionette	TRACE	0 &lt;- [1,5,null,{&quot;value&quot;:null}]
+1549099165521	Marionette	TRACE	0 -&gt; [0,6,&quot;WebDriver:Navigate&quot;,{&quot;url&quot;:&quot;https://www.freecrm.com/index.html&quot;}]
+1549099165533	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1549099173855	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1549099202930	Marionette	TRACE	0 &lt;- [1,6,{&quot;error&quot;:&quot;timeout&quot;,&quot;message&quot;:&quot;Timeout loading page after 30000ms&quot;,&quot;stacktrace&quot;:&quot;WebDriverError@chrome://marionette/conte ... 8:5\nTimeoutError@chrome://marionette/content/error.js:445:5\nnotify@chrome://marionette/content/listener.js:338:13\n&quot;},null]
+</system-err>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="loginpagetitle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="setup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="ValidateCRMlogo" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="setup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.ex.tests.LoginTest" name="teardown" time="0.001">
+    <skipped/>
+  </testcase>
+</testsuite>

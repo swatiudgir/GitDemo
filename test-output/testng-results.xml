@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61" started-at="2019-06-01T14:15:16Z" finished-at="2019-06-01T14:15:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61" started-at="2019-06-01T14:15:16Z" finished-at="2019-06-01T14:15:16Z">
+      <class name="com.ex.tests.Dataprovidertest">
+        <test-method status="PASS" signature="dataread(java.lang.String, java.lang.String, int)[pri:0, instance:com.ex.tests.Dataprovidertest@1c7cbad]" name="dataread" duration-ms="23" started-at="2019-06-01T19:45:16Z" data-provider="getdata" finished-at="2019-06-01T19:45:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghfhgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hggjhgfjg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataread -->
+        <test-method status="PASS" signature="dataread(java.lang.String, java.lang.String, int)[pri:0, instance:com.ex.tests.Dataprovidertest@1c7cbad]" name="dataread" duration-ms="3" started-at="2019-06-01T19:45:16Z" data-provider="getdata" finished-at="2019-06-01T19:45:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jhgkg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kjhklh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataread -->
+      </class> <!-- com.ex.tests.Dataprovidertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
